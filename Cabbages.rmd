@@ -38,7 +38,7 @@ veggy <- cabbages
 ## Now with ggplot - first select the basic data
 
 ```{r}
-basicCN <- ggplot(ucdavis1,aes(x=Sex,y=dadheight))
+basicCN <- ggplot(veggy,aes(x=Cult,y=VitC))
 ```
 ## Now add in boxplot
 
